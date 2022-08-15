@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: nunito;
+}
+
+.App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 80px;
+  background-image: url('https://i0.wp.com/www.csscodelab.com/wp-content/uploads/2019/11/css3-floating-background-animation-website-designer.png?fit=970%2C588&ssl=1');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.todo-title {
+  font-size: 60px;
+  color: #ebebeb;
+  letter-spacing: 3px;
+}
+
+.todos-container {
+  width: 60%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 25px;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+  backdrop-filter: blur(10px);
+  box-shadow: -2px 10px 25px rgba(150, 150, 150, 0.4);
+}
+

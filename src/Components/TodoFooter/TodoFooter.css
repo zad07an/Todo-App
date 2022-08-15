@@ -1,0 +1,39 @@
+.todo-footer-container {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.todo-footer-completeds {
+  font-size: 24px;
+  color: #ebebeb;
+  font-weight: bold;
+  letter-spacing: 2px;
+  animation: todoCompletedsAnimate 0.2s alternate;
+}
+
+.todo-footer-button {
+  width: 200px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: bold;
+  background: #2196f3;
+  color: #ebebeb;
+  border-radius: 5px;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+}
+
+.todo-footer-button:active {
+  transform: scale(0.98);
+  background: #3fa3f5;
+  box-shadow: 0 0 10px #2196f3;
+}
